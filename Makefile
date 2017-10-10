@@ -8,8 +8,8 @@
 #
 #   - all (default) - builds all targets and runs all tests.
 #   - ci-smoke: Executes the smoke test. 
-#   - fabric-ca - builds the fabric-ca-server executable.
-#   - pip-install - builds the fabric-ca-client executable
+#   - fabric-ca - builds the fabric-ca binaries.
+#   - pip-install - Installs the dependencies required.
 
 all: ci-smoke fabric-ca pip-install
 fabric_URL1 = https://gerrit.hyperledger.org/r/fabric
